@@ -1,0 +1,65 @@
+GERAL (mais urgente):
+- Checar o style.css ===> ver se ta tudo certo e se tem coisa a mais que dá pra tirar.
+- Colocar as fontes corretas em todas as páginas (SE FOR PADRONIZAR, TEM QUE CRIAR A CLASSE .texto E VER SE TÁ TUDO CERTO)
+- Analisar espaçamentos e margens
+
+- Colocar as informações no footer
+	*Eu não consegui, pq não tava aparecendo (texto tava ivisivel). Aí fiz uma classe .contato_texto
+		*Então ta funcionando em exames, mas na gambiarra.
+
+
+MENU SUPERIOR (mais urgente):
+- Card ta tampando os exames quando expande eles.
+
+
+FOOTER (mais urgente):
+- Texto não aparece!
+	*Nos exames eu deixei branco mas tiver que cria uma classe a mais. Não sei se precisava.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*
+*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*
+*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*
+GERAL:
+- Deixar o comportamento do site correto para tamanhos de telas diferentes.(quando diminui a tela os botões do menu superior estão sumindo).
+- Ver se ta usando tag semantica quando precisar usar
+- Ver se tá tudo escrito certo (igual tava no site original)
+	*Falar pro pessoal do CCBEU fazer uma revisão geral do site (erros de ortografia; visual geral do site; ver se vai manter os textos como estão; etc.)
+
+
+*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*
+CURSOS E EXAMES:
+-EM EXAMES MICHIGAN, logo no começo tem um SITE QUE TÁ ERRADO. Tem que ver qual é o site certo (mas eu nao consegui mais entrar no site do ccbeu marilia).
+- Sugestão visual: Tirar o sublinhado e os dois pontos dos "cursos" e "exames"
+- Arrumar tabelas (ver fonte e formato - das bordas e do texto)
+- Sugestão ortográfica minha: nos cursos, trocar "provas" por "avaliações"
+
+- É pra deixar todas (senão, quais?) informações nos cursos:
+	- Horas de aula/semana: X hrs/aula por semana.
+	- Provas: o curso conta com...
+	- Curso completo: X módulos/Y anos...
+	- (Os horários de curso estarão disponíveis na secretaria)
+	* ESSES ITENS TEM QUE REVISAR DE TODOS OS CURSOS.
+*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*==*
+MENU SUPERIOR:
+- A logo com fundo branco na barra de menu superior vermelha ta feia.

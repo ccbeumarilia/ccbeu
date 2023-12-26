@@ -1,0 +1,365 @@
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+    /* Cor do fundo da barra de rolagem */
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+  }
+  
+  h1 {
+    color: #002868;
+    font-weight: 600;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #002868;
+    font-size: 80%;
+  }
+
+  h6 {
+    font-size: 15%;
+  }
+  
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #002868;
+  }
+  
+  .titulo-ingles {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding-top: 35px;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px solid $color-form-highlight;
+  }
+  
+  .table_exames td,
+  th {
+    border: 2px solid #0e0e0e;
+    padding: 10px;
+  }
+  
+  .exames {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #002868;
+  }
+  
+  /* Fim de Styles referentes a exames */
+  
+  .table-row {
+    display: flex;
+    width: 100%;
+    padding: 1.5 0;
+    color: #002868;
+  
+    &:nth-of-type(odd) {
+      background: #bf0a30;
+      color: #fff;
+    }
+  }
+  .table-data {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding: 5px 1px 5px 1px;
+  }
+  
+  .table-data,
+  .header__item {
+    flex: 1 1 20%;
+    text-align: center;
+  }
+  
+  .header__item {
+    text-transform: uppercase;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 70%;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+#ny{
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#ny-text{
+  padding-bottom: 20%;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 90%;
+  background-color: #002868;
+}
+
+#card{
+  width: 320px;
+  height: 400px;
+  background-color: #002868;
+  border-radius: 15px;
+}
+
+#image-details{
+  margin-top: 14px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#title-details{
+  color: #fff;
+  text-align: center;
+  font-size: 75%;
+}
+
+#text-details{
+  color: #fff;
+  font-size: 50%;
+}
+
+.details{
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bf0a30;
+}
+
+
+.carrosel{
+  display: flex;
+  height: 300px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .Barra-tarefas {
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #bf0a30;
+    color: #ffff;
+    height: 80px;
+  }
+  
+#social-media{
+  filter: brightness(0) invert(1);
+}
+
+
+  .Logo {
+    align-content: center;
+    margin-left: 40px;
+    margin-top: 4px;
+  }
+  
+  .Logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .Nav-links a {
+    color: #fff;
+  }
+  
+  .Menu {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .Menu li:hover {
+    background-color: #002868;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .Menu li {
+    padding: 4px 14px;
+  }
+  
+  .Cursos {
+    position: relative;
+  }
+  
+  .Exames_menu {
+    position: relative;
+  }
+  
+  .Dropdown {
+    background-color: #bf0a30;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 31px;
+  }
+  
+  .Dropdown li + li {
+    margin-top: 5%;
+  }
+  
+  .Dropdown li {
+    padding: 3% 1%;
+    width: 8em;
+    text-align: center;
+  }
+  
+  .Dropdown li:hover {
+    background-color: #002868;
+  }
+  
+  .Cursos:hover .Dropdown {
+    display: block;
+  }
+  
+  .Exames_menu:hover .Dropdown {
+    display: block;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+ 
+  
+  .Inicio {
+    height: 320px;
+  }
+  
+  .Imagem_principal{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  form {
+    float: right;
+    width: 40%;
+    height: 25%;
+    background-color: #fffbfb;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
+  
+  .Formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .items {
+    padding: 10px;
+    width: 75%;
+    border: 1px solid #ccc;
+  }
+  
+  .Cards {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 10px
+
+  }
+  
+  /*------------------------------------- tem que mudar a cor do texto no footer ------------------------------------- */
+  footer {
+    color: #ffffff;
+    background-color: #002868;
+  }
+  
+  footer h6 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  footer p {
+    font-size: 70%;
+    color: #fff;
+  }
+  
+  .row-footer {
+    display: flex;
+    width: 100%;
+    padding: 10px 1px 1px 10px;
+  }
+  
+  .col-info {
+    padding: 10px 1px 1px 40px;
+  }
+  
+  .logo-part {
+    padding-top: 10px;
+  }
+  
+  .logo-part {
+    border-right: 1px solid #fff;
+    height: 100%;
+    width: 120%;
+  }
+  
+  .social {
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  
+  /*------------------------------------- tem que mudar a cor do texto no footer -------------------------------------*/
+  
+  .whatsapp-icon {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+    margin-right: 10px;
+    /* Adicionando espaçamento à direita */
+    z-index: 100;
+  }
+ 
+.rede-social{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Centraliza os elementos verticalmente */
+  font-size: 55%;
+}
